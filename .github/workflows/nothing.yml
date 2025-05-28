@@ -15,3 +15,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    steps:
+    - name: Publish Website to WebApp
+      uses: Azure/cli@v2
+      with:
+        inlineScript: echo "Hello out there!"
+        
