@@ -17,8 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Publish Website to WebApp
+    - name: Is there life on Mars
       uses: Azure/cli@v2
       with:
         inlineScript: echo "Hello out there!"
-        
