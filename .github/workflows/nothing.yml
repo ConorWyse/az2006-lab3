@@ -1,0 +1,13 @@
+name: Just us chickens
+
+on: [workflow_dispatch]
+
+permissions:
+  id-token: write # Require write permission to Fetch an OIDC token.
+  contents: read  # This is required for actions/checkout
+
+env:
+  # For AZURE_WEBAPP_NAME enter just the name, not the full URL.
+  AZURE_WEBAPP_NAME: az2006app51732962
+  RESOURCE_GROUP: az2006-rg
+  
