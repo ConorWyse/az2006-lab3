@@ -11,3 +11,7 @@ env:
   AZURE_WEBAPP_NAME: az2006app51732962
   RESOURCE_GROUP: az2006-rg
   
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
